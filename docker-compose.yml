@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  app:
+    image: ambientum/php:7.1-nginx
+    container_name: araneo-relay-app
+    volumes:
+      - .:/var/www/app
+    ports:
+      - "80:8080"

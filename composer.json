@@ -1,0 +1,13 @@
+{
+    "name": "pedrommone/araneo-relay",
+    "description": "Simple script for relaying requests for araneo proxy testing feature.",
+    "authors": [
+        {
+            "name": "Pedro Maia",
+            "email": "pedrommone@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3"
+    }
+}
